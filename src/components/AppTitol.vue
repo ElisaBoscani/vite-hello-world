@@ -9,5 +9,11 @@ export default {
 </script>
 
 <template>
-  <h1>{{ titol }}</h1>
+  <h1 class="titol">{{ titol }}</h1>
 </template>
+
+<style>
+.titol {
+  margin-bottom: 100px;
+}
+</style>
